@@ -14,3 +14,5 @@ match enter :
         num1=int(input("Enter first number:"))
         num2=int(input("Enter second number:"))
         print(f"the sum of {num1} and {num2} is{num1+num2}")
+    case "2":
+        print("Random number :" + random.randint(0,100))
