@@ -18,3 +18,7 @@ match enter :
         print("Random number :" + random.randint(0,100))
     case "3":
         print("Random word :"+ random.choice(["apple","banana","cherry","date","elderberry","fig","grape","honeydew","kiwi","lemon"]))
+    case "4":
+        num1=int(input("Enter first number:"))
+        num2=int(input("Enter second number:"))
+        print(f"the sum of {num1} and {num2} is{num1*num2}")
