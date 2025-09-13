@@ -15,7 +15,6 @@ match enter :
         num2=int(input("Enter second number:"))
         print(f"the sum of {num1} and {num2} is{num1+num2}")
     case "2":
-<<<<<<< HEAD
         print("Random number :" + random.randint(0,100))
     case "3":
         print("Random word :"+ random.choice(["apple","banana","cherry","date","elderberry","fig","grape","honeydew","kiwi","lemon"]))
@@ -25,6 +24,3 @@ match enter :
         print(f"the sum of {num1} and {num2} is{num1*num2}")
     case _:
         print("invalid choice")
-=======
-        print("Random number :" + random.randint(0,100))
->>>>>>> parent of d7d694f (case 3)
